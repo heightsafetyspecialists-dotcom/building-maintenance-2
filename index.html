@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Safety Specialists NZ | Commercial Building Maintenance & Roof Care</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'safety-yellow': '#FFC107',
+                        'safety-yellow-hover': '#FFD54F',
+                        'industrial-dark': '#0F0F0F',
+                        'industrial-card': '#18181B',
+                        'industrial-border': '#27272A'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0F0F0F;
+            color: #E4E4E7;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        .yellow-accent-border {
+            border-left: 4px solid #FFC107;
+        }
+        .yellow-accent-top {
+            border-top: 4px solid #FFC107;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-black text-safety-yellow text-xs sm:text-sm font-bold py-2.5 px-4 text-center border-b border-industrial-border tracking-wider flex flex-wrap justify-center items-center gap-2">
+        <span>IRATA Level 3</span>
+        <span class="text-zinc-600">•</span>
+        <span>NZQA Accredited</span>
+        <span class="text-zinc-600">•</span>
+        <span>WorkSafe NZ Compliant</span>
+        <span class="text-zinc-600 hidden sm:inline">•</span>
+        <span class="hidden sm:inline text-white">Christchurch & South Island-Wide</span>
+    </div>
+
+    <!-- Navigation Header -->
+    <nav class="bg-industrial-card border-b border-industrial-border sticky top-0 z-50 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center space-x-3">
+                    <i class="fa-solid fa-helmet-safety text-safety-yellow text-3xl"></i>
+                    <div>
+                        <span class="text-xl font-black tracking-tight text-white block uppercase">Height Safety</span>
+                        <span class="text-xs tracking-widest text-safety-yellow font-bold uppercase block">Specialists NZ</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8 text-sm font-semibold">
+                    <a href="#about" class="hover:text-safety-yellow transition-colors">About Us</a>
+                    <a href="#services" class="hover:text-safety-yellow transition-colors">Maintenance Services</a>
+                    <a href="#compliance" class="hover:text-safety-yellow transition-colors">Compliance</a>
+                    <a href="#gallery" class="hover:text-safety-yellow transition-colors">Work Gallery</a>
+                    <a href="#contact" class="bg-safety-yellow text-black px-5 py-2.5 rounded font-black hover:bg-safety-yellow-hover transition-colors uppercase">Get A Quote</a>
+                </div>
+
+                <!-- Call Direct Button Header -->
+                <div class="flex md:hidden">
+                    <a href="#contact" class="bg-safety-yellow text-black px-3 py-1.5 rounded font-black text-xs uppercase">Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section: Focused on Building & Roof Maintenance -->
+    <header class="relative bg-zinc-900 py-20 px-4 sm:px-6 lg:px-8 border-b border-industrial-border">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7">
+                <span class="inline-block bg-safety-yellow/10 text-safety-yellow text-xs font-bold px-3 py-1 rounded mb-4 uppercase tracking-wider border border-safety-yellow/30">
+                    Commercial & Residential Height Specialists • Operating Since 2010
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white uppercase mb-6 leading-none">
+                    Complete Building <span class="text-safety-yellow">& Roof Maintenance</span>
+                </h1>
+                <p class="text-zinc-300 text-lg mb-8 leading-relaxed max-w-2xl">
+                    Christchurch’s trusted experts in commercial cleaning, high-rise window washing, roof painting & spraying, specialist sealant work, abseil rope access, and EWP height solutions.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-safety-yellow text-black text-center font-black px-8 py-4 rounded hover:bg-safety-yellow-hover transition-colors uppercase tracking-wide">
+                        Request Site Inspection
+                    </a>
+                    <a href="#services" class="border border-zinc-600 hover:border-safety-yellow text-white text-center font-bold px-8 py-4 rounded transition-colors">
+                        View All Services
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Service Focus Box -->
+            <div class="lg:col-span-5 bg-industrial-card p-6 rounded-lg border border-industrial-border shadow-2xl yellow-accent-top">
+                <h3 class="text-xl font-black text-white uppercase mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-screwdriver-wrench text-safety-yellow"></i>
+                    Primary Focus Areas
+                </h3>
+                <ul class="space-y-3 text-zinc-300 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-spray-can text-safety-yellow mt-1 text-xs"></i>
+                        <span><strong>Roof Painting & Spraying:</strong> Residential & commercial roof restorations, anti-corrosive coatings, and spray painting.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-broom text-safety-yellow mt-1 text-xs"></i>
+                        <span><strong>Commercial Cleaning & Washdowns:</strong> High-pressure pre-paint washes, building washdowns, and algae decontamination.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-box-archive text-safety-yellow mt-1 text-xs"></i>
+                        <span><strong>Window & Glass Cleaning:</strong> Commercial high-rise and multi-story window cleaning via rope access and EWPs.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-fill-drip text-safety-yellow mt-1 text-xs"></i>
+                        <span><strong>Sealant & Joint Work:</strong> Expansion joint sealing, Alucobond/alley panel sealants, and weatherproofing.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-truck-pickup text-safety-yellow mt-1 text-xs"></i>
+                        <span><strong>Rope Access & EWPs:</strong> Reaching complex areas where standard ladders or scaffolding cannot fit.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight mb-4">Building Maintenance Services</h2>
+            <div class="w-24 h-1.5 bg-safety-yellow mx-auto mb-4"></div>
+            <p class="text-zinc-400 max-w-2xl mx-auto">
+                No job too big or too small. We specialize in hard-to-reach commercial and residential maintenance using rope access abseiling and certified EWPs.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service 1: Roof Painting & Spraying -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-paint-roller text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Roof Painting & Spraying</h3>
+                <p class="text-zinc-400 text-sm leading-relaxed">
+                    Complete residential and commercial roof spray painting, protective membrane coatings, rust treating, and thermal heat-reflective finishes.
+                </p>
+            </div>
+
+            <!-- Service 2: Commercial Cleaning & Washdowns -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-shower text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Commercial Cleaning</h3>
+                <p class="text-zinc-400 text-sm leading-relaxed">
+                    Pre-paint building washdowns, high-pressure soft washing, chemical decontamination, and moss/lichen treatments for structural facades.
+                </p>
+            </div>
+
+            <!-- Service 3: Window Cleaning -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-window-maximize text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Window & Glass Cleaning</h3>
+                <p class="text-zinc-400 text-sm leading-relaxed">
+                    High-rise commercial window cleaning and exterior glass restoration using industrial abseiling lines and Elevating Work Platforms (EWPs).
+                </p>
+            </div>
+
+            <!-- Service 4: Rope Access Maintenance -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-person-falling-burst text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Rope Access Maintenance</h3>
+                <p class="text-zinc-400 text-sm leading-relaxed">
+                    Industrial rope access abseiling to reach structural high-points where standard machinery, scaffolding, or ladders cannot safely operate.
+                </p>
+            </div>
+
+            <!-- Service 5: Specialist Sealants -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-fill-drip text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Specialist Sealant Applications</h3>
+                <ul class="text-zinc-400 text-sm space-y-2">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> Expansion joint sealing</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> Alucobond & alley panel sealant</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> Weatherproofing facade joints</li>
+                </ul>
+            </div>
+
+            <!-- Service 6: Anchor Testing & Heights Work -->
+            <div class="bg-industrial-card p-6 rounded border border-industrial-border yellow-accent-border hover:border-zinc-500 transition-all">
+                <i class="fa-solid fa-anchor text-4xl text-safety-yellow mb-4"></i>
+                <h3 class="text-xl font-bold text-white mb-3 uppercase">Anchor Certification & Safety</h3>
+                <ul class="text-zinc-400 text-sm space-y-2">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> 12 monthly anchor testing & certification</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> Horizontal lifeline safety testing</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-safety-yellow text-xs"></i> Rooftop anchor point inspections</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Work Gallery Section -->
+    <section id="gallery" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full border-t border-industrial-border">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-black text-white uppercase tracking-tight mb-4">Our Work Gallery</h2>
+            <div class="w-24 h-1.5 bg-safety-yellow mx-auto mb-4"></div>
+            <p class="text-zinc-400 max-w-2xl mx-auto">Real site operations across New Zealand and high-access international projects.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Item 1 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Rigging Work #1</span>
+                    <i class="fa-solid fa-toolbox text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">High-Altitude Tension Rigging</h4>
+                    <p class="text-zinc-400 text-xs">Tension line setup and heavy load transfer configuration between elevated towers.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Rigging Work #2</span>
+                    <i class="fa-solid fa-toolbox text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">Complex Structural Line Tensioning</h4>
+                    <p class="text-zinc-400 text-xs">Precision high-angle traverse rigging system for access across dual tower structures.</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Rigging Work #3</span>
+                    <i class="fa-solid fa-toolbox text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">Tower Anchor Rigging</h4>
+                    <p class="text-zinc-400 text-xs">High-level anchor system setup and safety line tensioning over public access zones.</p>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Inspection Works</span>
+                    <i class="fa-solid fa-magnifying-glass-chart text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">High-Angle Building Inspection</h4>
+                    <p class="text-zinc-400 text-xs">Commercial facade condition assessment with harbor and Opera House backdrop.</p>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Wind Farm Repair #1</span>
+                    <i class="fa-solid fa-wind text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">Wellington Blade Maintenance</h4>
+                    <p class="text-zinc-400 text-xs">Turbine blade surface repair and high-altitude composite maintenance in high-wind zones.</p>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Wind Farm Repair #2</span>
+                    <i class="fa-solid fa-wind text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">North Island Wind Farm Access</h4>
+                    <p class="text-zinc-400 text-xs">Rope access technician suspended for turbine maintenance overlooking regional wind farms.</p>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Auckland Harbour Bridge</span>
+                    <i class="fa-solid fa-bridge text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">Harbour Bridge Maintenance</h4>
+                    <p class="text-zinc-400 text-xs">Under-structure steelwork maintenance and protective coating over tidal waters.</p>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">Building Clean</span>
+                    <i class="fa-solid fa-building text-zinc-500"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">Sovereign House Facade Clean</h4>
+                    <p class="text-zinc-400 text-xs">High-rise commercial glass cleaning and building washdown on multi-story glass skyscraper.</p>
+                </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="bg-industrial-card border border-industrial-border rounded overflow-hidden">
+                <div class="p-4 bg-zinc-900 border-b border-industrial-border flex justify-between items-center">
+                    <span class="text-xs font-bold text-safety-yellow uppercase">HMS Warrior</span>
+                    <i class="fa-solid fa-anchor text-safety-yellow"></i>
+                </div>
+                <div class="p-5">
+                    <h4 class="text-white font-bold text-base mb-1">HMS Warrior Tall-Ship Mast Work</h4>
+                    <p class="text-zinc-400 text-xs">High-rigging restoration, timber coating, and structural preservation on historic vessel in Portsmouth, UK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance Section -->
+    <section id="compliance" class="bg-zinc-900 py-20 px-4 sm:px-6 lg:px-8 border-t border-b border-industrial-border">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-black text-white uppercase tracking-tight mb-4">Accredited & Safety Certified</h2>
+                <p class="text-zinc-400 max-w-2xl mx-auto">
+                    Operating strictly under the IRATA International Code of Practice (ICOP) and WorkSafe NZ Unit Standards.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-industrial-card p-5 rounded border border-industrial-border">
+                    <span class="text-xs font-bold text-safety-yellow uppercase block mb-1">NZQA 23229 & 23232</span>
+                    <h4 class="text-white font-bold mb-2">Rope Access & Rescue</h4>
+                    <p class="text-zinc-400 text-xs">Suspension intolerance protocols, harness safety, and rope access rescue operations.</p>
+                </div>
+                <div class="bg-industrial-card p-5 rounded border border-industrial-border">
+                    <span class="text-xs font-bold text-safety-yellow uppercase block mb-1">NZQA 17599, 18426, 25510</span>
+                    <h4 class="text-white font-bold mb-2">Confined Space Safety</h4>
+                    <p class="text-zinc-400 text-xs">Atmospheric testing, entry protocols, and high-risk hazard planning.</p>
+                </div>
+                <div class="bg-industrial-card p-5 rounded border border-industrial-border">
+                    <span class="text-xs font-bold text-safety-yellow uppercase block mb-1">NZQA 3800 & 30072</span>
+                    <h4 class="text-white font-bold mb-2">Dogman & Load Slinging</h4>
+                    <p class="text-zinc-400 text-xs">Slinging complex and unbalanced structural loads safely at height.</p>
+                </div>
+                <div class="bg-industrial-card p-5 rounded border border-industrial-border">
+                    <span class="text-xs font-bold text-safety-yellow uppercase block mb-1">NZQA 15757 & 23966</span>
+                    <h4 class="text-white font-bold mb-2">EWP & Temporary Safety</h4>
+                    <p class="text-zinc-400 text-xs">Elevating Work Platforms (EWP) operation and temporary height safety systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Quote Form Section -->
+    <section id="contact" class="bg-zinc-900 py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto bg-industrial-card p-8 sm:p-10 rounded-lg border border-industrial-border shadow-2xl yellow-accent-top">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl sm:text-3xl font-black text-white uppercase mb-2">Request Maintenance Quote</h2>
+                <p class="text-zinc-400 text-sm">Serving Christchurch, Canterbury, and nationwide New Zealand.</p>
+            </div>
+
+            <form action="#" method="POST" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Contact Name *</label>
+                        <input type="text" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Company Name</label>
+                        <input type="text" class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Email Address *</label>
+                        <input type="email" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Phone Number *</label>
+                        <input type="tel" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Primary Service Requested</label>
+                    <select class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm">
+                        <option>Roof Painting & Spraying (Commercial / Residential)</option>
+                        <option>Commercial Cleaning & Building Washdowns</option>
+                        <option>Window & Glass Cleaning (High Access)</option>
+                        <option>Specialist Sealants & Facade Jointing</option>
+                        <option>Industrial Rope Access Maintenance</option>
+                        <option>Anchor Point Certification & Lifeline Testing</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-zinc-300 uppercase mb-2">Site Location & Project Scope *</label>
+                    <textarea rows="4" required class="w-full bg-zinc-900 border border-industrial-border rounded px-4 py-3 text-white focus:outline-none focus:border-safety-yellow text-sm" placeholder="Please specify roof type, building height, access constraints, or preferred timing..."></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-safety-yellow text-black font-black uppercase py-4 rounded hover:bg-safety-yellow-hover transition-colors tracking-wide">
+                    Submit Quote Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-safety-yellow text-black py-8 px-4 sm:px-6 lg:px-8 border-t-4 border-black mt-auto">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left">
+            <div>
+                <span class="font-black text-lg uppercase block">Height Safety Specialists NZ</span>
+                <span class="text-xs font-bold text-zinc-900">Christchurch, NZ • Commercial Cleaning, Roof Spraying & Rope Access</span>
+            </div>
+            <div class="text-xs font-bold">
+                <p>&copy; 2026 Height Safety Specialists NZ. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
